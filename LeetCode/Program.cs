@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Text.RegularExpressions;
+
 
 namespace LeetCode
 {
@@ -17,13 +17,17 @@ namespace LeetCode
     {
         public static void Main(string[] args)
         {
-            int[] nums = new int[] { 1, 25, 30, 20 };
-            Program program = new Program();
-            int[] result = program.TwoSum(nums, 21);
-            foreach (var num in result)
-            {
-                Console.Write("{0} ", num);
-            }
+            //int[] nums = new int[] { 1, 25, 30, 20 };
+            //Program program = new Program();
+            //int[] result = program.TwoSum(nums, 21);
+            //foreach (var num in result)
+            //{
+            //    Console.Write("{0} ", num);
+            //}
+            //ReverseInt reverseInt = new ReverseInt();
+            //reverseInt.Reverse(-321);
+            Atoi atoi = new Atoi();
+            Console.WriteLine(atoi.MyAtoi("-42"));
             Console.ReadKey();
         }
         public int[] TwoSum(int[] nums, int target)
