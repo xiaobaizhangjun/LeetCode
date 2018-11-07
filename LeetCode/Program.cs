@@ -26,8 +26,11 @@ namespace LeetCode
             //}
             //ReverseInt reverseInt = new ReverseInt();
             //reverseInt.Reverse(-321);
-            Atoi atoi = new Atoi();
-            Console.WriteLine(atoi.MyAtoi("-42"));
+            //Atoi atoi = new Atoi();["flower","flow","flight"]
+            //Console.WriteLine(atoi.MyAtoi("-42"));
+            LongestCommon longestCommon = new LongestCommon();
+            string[] strs =new string[] { "flower", "flow" ,"floweri"};
+            longestCommon.LongestCommonPrefix(strs);
             Console.ReadKey();
         }
         public int[] TwoSum(int[] nums, int target)
